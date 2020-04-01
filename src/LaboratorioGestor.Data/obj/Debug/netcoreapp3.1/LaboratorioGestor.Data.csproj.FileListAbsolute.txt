@@ -24,3 +24,4 @@ C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\L
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.csproj.CopyComplete
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\appsettings.json

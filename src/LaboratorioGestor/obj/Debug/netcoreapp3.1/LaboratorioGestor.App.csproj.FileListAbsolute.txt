@@ -724,3 +724,4 @@ C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Labora
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.csproj.CopyComplete
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.dll
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\_NovoRecebimento.cshtml.g.cs

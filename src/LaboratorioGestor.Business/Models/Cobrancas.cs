@@ -14,7 +14,7 @@ namespace LaboratorioGestor.Business.Models
 
         public double? ValorTotal { get; set; }
 
-        public Guid IDDentista { get; set; }
+        public Guid? IDDentista { get; set; }
 
         public double? ValorRecebimento { get; set; }
 

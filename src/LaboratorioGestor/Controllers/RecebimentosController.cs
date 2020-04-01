@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using X.PagedList;
 
 namespace LaboratorioGestor.App.Controllers
 {
@@ -25,9 +26,11 @@ namespace LaboratorioGestor.App.Controllers
             _recebimentosRepository = recebimentoRepository;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pagina, string IDPesquisa)
         {
-            return View(_mapper.Map<IEnumerable<RecebimentosViewModel>>(await _recebimentosRepository.ObterTodos()));
+            var _pesquisa = string.IsNullOrEmpty(IDPesquisa) ? Guid.Empty : Guid.Parse(IDPesquisa);
+
+            return View(_mapper.Map<StaticPagedList<RecebimentosViewModel>>(await _recebimentosRepository.ObterRecebimentosPesquisaPaginado(pagina, _pesquisa)));
         }
 
         // GET: HaverContasAReceber/Details/5
@@ -47,10 +50,17 @@ namespace LaboratorioGestor.App.Controllers
             return View(haverContasAReceberViewModel);
         }
 
+
         // GET: HaverContasAReceber/Create
         public IActionResult Create()
         {
             return View();
+        }
+
+        // GET: HaverContasAReceber/Create
+        public  IActionResult NovoRecebimento()
+        {
+            return PartialView("_NovoRecebimento", new RecebimentosViewModel());
         }
 
 

@@ -51,7 +51,7 @@ namespace LaboratorioGestor.Data.Repository
             foreach (var servico in servicos)
             {
                 servico.IDCobranca = null;
-                Atualizar(servico);
+                await Atualizar(servico);
             }
         }
 

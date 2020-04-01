@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LaboratorioGestor.App.ViewModels.RecebimentosViewModel>
+﻿@model X.PagedList.IPagedList<LaboratorioGestor.App.ViewModels.RecebimentosViewModel>
 
 @{
     ViewData["Title"] = "Recebimentos";
@@ -9,7 +9,7 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>
-    <a asp-action="Create">Novo Recebimento</a>
+    <a asp-action="NovoRecebimento" class="btn btn-info" >Novo Recebimento</a>
 </p>
 
 <form asp-action="Index" method="get">
@@ -24,10 +24,10 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.DataCadastro)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().DataCadastro)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Valor)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Valor)
             </th>
             <th></th>
         </tr>
@@ -52,6 +52,7 @@
     </tbody>
 </table>
 
+
 @if (Model != null)
 {
     @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
@@ -63,6 +64,7 @@
     <script>
         $(document).ready(function () {
             ObterDentistaPorDescricao();
+            AjaxModal();
         });
     </script>
 }

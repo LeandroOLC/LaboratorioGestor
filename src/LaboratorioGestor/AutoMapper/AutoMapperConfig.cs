@@ -42,6 +42,13 @@ namespace LaboratorioGestor.App.AutoMapper
                    source.PageNumber,
                    source.PageSize,
                    source.TotalItemCount)).ReverseMap();
+
+            CreateMap<StaticPagedList<Recebimentos>, StaticPagedList<RecebimentosViewModel>>()
+            .ConstructUsing((source, context) => new StaticPagedList<RecebimentosViewModel>(
+                context.Mapper.Map<List<Recebimentos>, List<RecebimentosViewModel>>(source.ToList()),
+                source.PageNumber,
+                source.PageSize,
+                source.TotalItemCount)).ReverseMap();
         }
     }
 

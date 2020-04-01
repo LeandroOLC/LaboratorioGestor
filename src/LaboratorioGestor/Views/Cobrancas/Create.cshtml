@@ -1,0 +1,146 @@
+﻿@model X.PagedList.IPagedList<LaboratorioGestor.App.ViewModels.ServicoViewModel>
+@{
+    ViewData["Title"] = "Nova Cobrança";
+    var pesquisa = Context.Request.Query["NomeDentista"];
+    var pesquisaID = Context.Request.Query["IDPesquisa"];
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+<form asp-action="Create">
+    <div class="form-group">
+        <a class="btn btn-info" asp-action="Index">Voltar</a>
+    </div>
+</form>
+
+<form asp-action="Create" method="get">
+    <input type="hidden" id="IDPesquisa" name="IDPesquisa" value="@pesquisaID" class="form-control">
+    <div class="form-row">
+        <input type="text" id="NomeDentista" name="NomeDentista" class="form-control col-md-10" value="@pesquisa" placeholder="Digite nome do dentista...">
+        <button type="submit" class="btn btn-primary col-md-1">Pesquisa</button>
+    </div>
+</form>
+
+<br />
+
+<form method="post">
+    <input type="hidden" id="IDPesquisa" name="IDPesquisa" value="@pesquisaID" class="form-control">
+    <div class="form-row">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="display:none">
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().NomePaciente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().ReferenciaOS)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().DataCadastro)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().Valor)
+                    </th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr class="itemTecnico">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NomePaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ReferenciaOS)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DataCadastro)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Valor)
+                            </td>
+
+                            <td>
+                                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Remover</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+    <button type="submit" id="btnSalvarServicos" class="btn btn-primary col-md-1">Create</button>
+</form>
+
+
+@if (Model != null)
+{
+    @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
+}
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            ObterDentistaPorDescricao();
+        });
+    </script>
+}
+@*<form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="DataCadastro" class="control-label"></label>
+            <input asp-for="DataCadastro" class="form-control" />
+            <span asp-validation-for="DataCadastro" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ValorDesconto" class="control-label"></label>
+            <input asp-for="ValorDesconto" class="form-control" />
+            <span asp-validation-for="ValorDesconto" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ValorAcrecimo" class="control-label"></label>
+            <input asp-for="ValorAcrecimo" class="form-control" />
+            <span asp-validation-for="ValorAcrecimo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ValorTotal" class="control-label"></label>
+            <input asp-for="ValorTotal" class="form-control" />
+            <span asp-validation-for="ValorTotal" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="IDDentista" class="control-label"></label>
+            <input asp-for="IDDentista" class="form-control" />
+            <span asp-validation-for="IDDentista" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ValorRecebimento" class="control-label"></label>
+            <input asp-for="ValorRecebimento" class="form-control" />
+            <span asp-validation-for="ValorRecebimento" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ValorRestante" class="control-label"></label>
+            <input asp-for="ValorRestante" class="form-control" />
+            <span asp-validation-for="ValorRestante" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="IDServico" class="control-label"></label>
+            <input asp-for="IDServico" class="form-control" />
+            <span asp-validation-for="IDServico" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>*@
+

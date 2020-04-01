@@ -1,0 +1,68 @@
+﻿@model IEnumerable<LaboratorioGestor.App.ViewModels.RecebimentosViewModel>
+
+@{
+    ViewData["Title"] = "Recebimentos";
+    var pesquisa = Context.Request.Query["NomeDentista"];
+    var pesquisaID = Context.Request.Query["IDPesquisa"];
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create">Novo Recebimento</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <input type="hidden" id="IDPesquisa" name="IDPesquisa" value="@pesquisaID" class="form-control">
+    <div class="form-row">
+        <input type="text" id="NomeDentista" name="NomeDentista" class="form-control col-md-10" value="@pesquisa" placeholder="Digite nome do dentista...">
+        <button type="submit" class="btn btn-primary col-md-1">Pesquisa</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DataCadastro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataCadastro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+                </td>
+                @*<td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>*@
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model != null)
+{
+    @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
+}
+
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            ObterDentistaPorDescricao();
+        });
+    </script>
+}

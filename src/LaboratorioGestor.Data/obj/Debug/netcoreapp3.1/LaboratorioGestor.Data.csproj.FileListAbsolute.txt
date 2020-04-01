@@ -1,0 +1,26 @@
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.deps.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.runtimeconfig.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.runtimeconfig.dev.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.csprojAssemblyReference.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.AssemblyInfoInputs.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.AssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.csproj.CopyComplete
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.deps.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.runtimeconfig.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.runtimeconfig.dev.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.csprojAssemblyReference.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.AssemblyInfoInputs.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.AssemblyInfo.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.csproj.CopyComplete
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Data\obj\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb

@@ -1,0 +1,51 @@
+﻿@model X.PagedList.IPagedList<LaboratorioGestor.App.ViewModels.ProdutoViewModel>
+@{
+    ViewData["Title"] = "Produtos Cadastrados";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-info">Novo Produto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().DataDoCadastro)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+                </td>
+                <th>
+                    @Html.DisplayFor(modelItem => item.DataDoCadastro)
+                </th>
+                <td>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Remover</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+@Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))

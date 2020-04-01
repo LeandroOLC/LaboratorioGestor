@@ -1,0 +1,62 @@
+﻿@using LaboratorioGestor.App.Extensions
+@model IEnumerable<LaboratorioGestor.App.ViewModels.DentistaViewModel>
+
+@{
+    ViewData["Title"] = "Dentistas Cadastrados";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-info">Novo Dentista</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeDaClinica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDoCadastro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CRO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Documento)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeDaClinica)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataDoCadastro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CRO)
+                </td>
+                <td>
+                    @this.FormataDocumento( item.TipoPessoa, item.Documento)
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Remover</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

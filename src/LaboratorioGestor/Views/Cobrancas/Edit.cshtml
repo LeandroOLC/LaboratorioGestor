@@ -1,0 +1,106 @@
+﻿@model X.PagedList.IPagedList<LaboratorioGestor.App.ViewModels.ServicoViewModel>
+@{
+    ViewData["Title"] = "Editar Cobrança";
+    var pesquisa = Context.Request.Query["NomeDentista"];
+    var pesquisaID = Context.Request.Query["IDPesquisa"];
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<form asp-action="Edit" method="post">
+    <div class="form-row">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().NomePaciente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().ReferenciaOS)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().DataCadastro)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().Valor)
+                    </th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            @if (item.IDCobranca == Guid.Empty)
+                            {
+                                <td style="border-left:5px solid #17a2b8; color:#17a2b8;">
+                                    @(item.IDCobranca == Guid.Empty ? "Novo Cobrança" : "Já Cobrado")
+                                </td>
+                            }
+                            else
+                            {
+                                <td style="border-left:5px solid #28A745; color:#28A745;">
+                                    @(item.IDCobranca == Guid.Empty ? "Novo Cobrança" : "Já Cobrado")
+                                </td>
+                            }
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NomePaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ReferenciaOS)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DataCadastro)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Valor)
+                            </td>
+
+                            <td>
+                                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Remover</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+    <button type="submit" id="btnSalvarServicos" class="btn btn-primary col-md-1">Create</button>
+</form>
+
+
+@if (Model != null)
+{
+    @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
+}
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+
+            var tds = $("#Status");
+
+            tds.length
+
+            for (var i = 0; i < tds.length; i++) {
+
+
+            }
+        });
+    </script>
+}
+

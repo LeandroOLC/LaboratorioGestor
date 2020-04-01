@@ -1,0 +1,84 @@
+﻿@model LaboratorioGestor.App.ViewModels.EnderecoViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>EnderecoViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Endereco" class="control-label"></label>
+                <input asp-for="Endereco" class="form-control" />
+                <span asp-validation-for="Endereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Numero" class="control-label"></label>
+                <input asp-for="Numero" class="form-control" />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bairro" class="control-label"></label>
+                <input asp-for="Bairro" class="form-control" />
+                <span asp-validation-for="Bairro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UF" class="control-label"></label>
+                <input asp-for="UF" class="form-control" />
+                <span asp-validation-for="UF" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cidade" class="control-label"></label>
+                <input asp-for="Cidade" class="form-control" />
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReferenciaDoEndereco" class="control-label"></label>
+                <input asp-for="ReferenciaDoEndereco" class="form-control" />
+                <span asp-validation-for="ReferenciaDoEndereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataDoCadastro" class="control-label"></label>
+                <input asp-for="DataDoCadastro" class="form-control" />
+                <span asp-validation-for="DataDoCadastro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoEndereco" class="control-label"></label>
+                <input asp-for="TipoEndereco" class="form-control" />
+                <span asp-validation-for="TipoEndereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DentistaId" class="control-label"></label>
+                <input asp-for="DentistaId" class="form-control" />
+                <span asp-validation-for="DentistaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LaboratorioId" class="control-label"></label>
+                <input asp-for="LaboratorioId" class="form-control" />
+                <span asp-validation-for="LaboratorioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProteticoId" class="control-label"></label>
+                <input asp-for="ProteticoId" class="form-control" />
+                <span asp-validation-for="ProteticoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

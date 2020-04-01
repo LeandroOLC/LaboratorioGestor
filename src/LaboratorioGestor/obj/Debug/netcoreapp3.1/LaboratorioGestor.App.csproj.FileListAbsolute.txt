@@ -1,0 +1,726 @@
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\libman.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.StaticWebAssets.xml
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.exe
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.deps.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.runtimeconfig.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.runtimeconfig.dev.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.csprojAssemblyReference.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\staticwebassets\LaboratorioGestor.App.StaticWebAssets.Manifest.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\staticwebassets\LaboratorioGestor.App.StaticWebAssets.xml
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.MvcApplicationPartsAssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.MvcApplicationPartsAssemblyInfo.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorAssemblyInfo.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorAssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.AssemblyInfoInputs.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.AssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.TagHelpers.input.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.TagHelpers.output.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorCoreGenerate.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginConfirmation.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginFailure.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Lockout.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\SendCode.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\VerifyCode.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\_Contato.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\_Endereco.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\_Contato.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\_Endereco.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\AddPhoneNumber.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ChangePassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ManageLogins.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\SetPassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\VerifyPhoneNumber.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\_Contato.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\_Endereco.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AccessDenied.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorTargetAssemblyInfo.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorTargetAssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.csproj.CopyComplete
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\libman.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.StaticWebAssets.xml
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.exe
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.deps.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.runtimeconfig.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.runtimeconfig.dev.json
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.csprojAssemblyReference.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\staticwebassets\LaboratorioGestor.App.StaticWebAssets.Manifest.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\staticwebassets\LaboratorioGestor.App.StaticWebAssets.xml
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.MvcApplicationPartsAssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.MvcApplicationPartsAssemblyInfo.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorAssemblyInfo.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorAssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.AssemblyInfoInputs.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.AssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.TagHelpers.input.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.TagHelpers.output.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorCoreGenerate.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginConfirmation.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginFailure.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Lockout.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\SendCode.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\VerifyCode.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\_Contato.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\_Endereco.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\_Contato.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\_Endereco.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\AddPhoneNumber.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ChangePassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ManageLogins.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\SetPassword.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\VerifyPhoneNumber.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\_Contato.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\_Endereco.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Create.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Delete.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Details.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Edit.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Index.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AccessDenied.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorTargetAssemblyInfo.cache
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorTargetAssemblyInfo.cs
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.pdb
+C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.csproj.CopyComplete
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\appsettings.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\libman.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.StaticWebAssets.xml
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.exe
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.deps.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.runtimeconfig.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.runtimeconfig.dev.json
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Data.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.csprojAssemblyReference.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\staticwebassets\LaboratorioGestor.App.StaticWebAssets.Manifest.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\staticwebassets\LaboratorioGestor.App.StaticWebAssets.xml
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.MvcApplicationPartsAssemblyInfo.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.MvcApplicationPartsAssemblyInfo.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorAssemblyInfo.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorAssemblyInfo.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.AssemblyInfoInputs.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.AssemblyInfo.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.TagHelpers.input.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.TagHelpers.output.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorCoreGenerate.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginConfirmation.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginFailure.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Lockout.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\SendCode.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Account\VerifyCode.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Cobrancas\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Contatos\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\_Contato.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Dentistas\_Endereco.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Enderecos\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\_Contato.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Laboratorios\_Endereco.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\AddPhoneNumber.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ChangePassword.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\ManageLogins.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\SetPassword.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Manage\VerifyPhoneNumber.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\_Contato.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Protetico\_Endereco.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Recebimentos\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Create.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Delete.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Details.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Edit.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Servicos\Index.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AccessDenied.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorTargetAssemblyInfo.cache
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.RazorTargetAssemblyInfo.cs
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.Views.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.csproj.CopyComplete
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.dll
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor\obj\Debug\netcoreapp3.1\LaboratorioGestor.App.pdb

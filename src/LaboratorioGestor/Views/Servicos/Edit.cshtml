@@ -1,0 +1,190 @@
+﻿@model LaboratorioGestor.App.ViewModels.ServicoViewModel
+@{
+    ViewData["Title"] = "Editar Serviço";
+}
+
+<h1>Edit</h1>
+
+<h4>@ViewData["Title"]</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+
+            <vc:Summary></vc:Summary>
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label class="control-label">Dentista</label>
+                    <input asp-for="IDDentista" type="hidden" id="txtDentistaId" name="IDDentista" class="form-control">
+                    <input asp-for="Dentistas.Nome" type="text" id="txtDentistaNome" class="form-control" placeholder="Digite nome do dentista...">
+                    <span asp-validation-for="IDDentista" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-11">
+                    <label asp-for="NomePaciente" class="control-label"></label>
+                    <input asp-for="NomePaciente" class="form-control" />
+                    <span asp-validation-for="NomePaciente" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-1">
+                    <label asp-for="Idade" class="control-label"></label>
+                    <input asp-for="Idade" class="form-control" />
+                    <span asp-validation-for="Idade" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-8">
+                    <label class="control-label">Produto</label>
+                    <input asp-for="IDProduto" type="hidden" class="form-control" id="txtProdutoId" name="IdProduto">
+                    <input asp-for="Produtos.Nome" type="text" id="txtProdutoNome" class="form-control" placeholder="Digite nome do produto...">
+                    <span asp-validation-for="IDProduto" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-2">
+                    <label asp-for="Quantidade" class="control-label"></label>
+                    <input asp-for="Quantidade" class="form-control" />
+                    <span asp-validation-for="Quantidade" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-2">
+                    <label asp-for="Valor" class="control-label"></label>
+                    <input asp-for="Valor" class="form-control" />
+                    <span asp-validation-for="Valor" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label asp-for="Observcao" class="control-label"></label>
+                    <input asp-for="Observcao" class="form-control" />
+                    <span asp-validation-for="Observcao" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label asp-for="DataEntrada" class="control-label"></label>
+                    <input asp-for="DataEntrada" class="form-control" />
+                    <span asp-validation-for="DataEntrada" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label asp-for="DataEntrega" class="control-label"></label>
+                    <input asp-for="DataEntrega" class="form-control" />
+                    <span asp-validation-for="DataEntrega" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label asp-for="Cor" class="control-label"></label>
+                    <input asp-for="Cor" class="form-control" />
+                    <span asp-validation-for="Cor" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-2">
+                    <label asp-for="ReferenciaOS" class="control-label"></label>
+                    <input asp-for="ReferenciaOS" class="form-control" />
+                    <span asp-validation-for="ReferenciaOS" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-8">
+                    <label class="control-label">Protético</label>
+                    <input asp-for="IDProtetico" type="hidden" class="form-control" id="txtProteticoId" name="IDProtetico">
+                    <input asp-for="Proteticos.Nome" type="text" id="txtProteticoNome" class="form-control" autocomplete="on" placeholder="Digite nome do protético...">
+                    <span asp-validation-for="IDProtetico" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label asp-for="DataCadastro" class="control-label"></label>
+                    <input asp-for="DataCadastro" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" readonly="readonly" />
+                    <span asp-validation-for="DataCadastro" class="text-danger"></span>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <a class="btn btn-info" asp-action="Index">Voltar</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        $(function () {
+            $("#txtDentistaNome").autocomplete({
+                source: function (request, response) {
+                    $.ajax(
+                        {
+                            url:"/servicos/ObterDentistaPorDescricao",
+                            dataType: "json",
+                            data: { 'nomeDetista': request.term },
+                            success: response
+                        });
+                },
+
+                focus: function (event, ui) {
+                    $("#IDDentista").val(ui.item.value);
+                },
+
+                select: function (event, ui) {
+                    $("#txtDentistaNome").val(ui.item.value);
+                    $("#txtDentistaId").val(ui.item.id);
+                    return false;
+                }
+            });
+        });
+
+        $(function () {
+            $("#txtProdutoNome").autocomplete({
+                source: function (request, response) {
+                    $.ajax(
+                        {
+                            url: "/servicos/ObterProdutosPorDescricao",
+                            dataType: "json",
+                            data: { 'nomeProdutos': request.term },
+                            success: response
+                        });
+                },
+
+                focus: function (event, ui) {
+                    $("#ProdutoId").val(ui.item.value);
+                },
+
+                select: function (event, ui) {
+                    $("#txtProdutoNome").val(ui.item.value);
+                    $("#txtProdutoId").val(ui.item.id);
+                    return false;
+                }
+            });
+        });
+
+        $(function () {
+            $("#txtProteticoNome").autocomplete({
+                source: function (request, response) {
+                    $.ajax(
+                        {
+                            url: "/servicos/ObterProteticoPorDescricao",
+                            dataType: "json",
+                            data: { 'nomeProtetico': request.term },
+                            success: response
+                        });
+                },
+
+                focus: function (event, ui) {
+                    $("#IDProtetico").val(ui.item.value);
+                },
+
+                select: function (event, ui) {
+                    $("#txtProteticoNome").val(ui.item.value);
+                    $("#txtProteticoId").val(ui.item.id);
+                    return false;
+                }
+            });
+        });
+
+    </script>
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

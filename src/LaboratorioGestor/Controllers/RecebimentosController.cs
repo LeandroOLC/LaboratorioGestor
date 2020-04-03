@@ -15,15 +15,21 @@ namespace LaboratorioGestor.App.Controllers
     public class RecebimentosController : BaseController
     {
         private readonly IRecebimentoRepository _recebimentosRepository;
+        private readonly ICobrancaRepository _cobrancaRepository;
+        private readonly IRecebimentoService _recebimentoService;
         private readonly IMapper _mapper;
         private static INotificador notificador;
 
         public RecebimentosController(IRecebimentoRepository recebimentoRepository,
-                                             IMapper mapper,
-                                               IUser user)  : base(notificador, user)
+                                      IMapper mapper,
+                                      IUser user,
+                                      IRecebimentoService recebimentoService,
+                                      ICobrancaRepository cobrancaRepository)  : base(notificador, user)
         {
             _mapper = mapper;
             _recebimentosRepository = recebimentoRepository;
+            _cobrancaRepository = cobrancaRepository;
+            _recebimentoService = recebimentoService;
         }
 
         public async Task<IActionResult> Index(int? pagina, string IDPesquisa)
@@ -50,19 +56,11 @@ namespace LaboratorioGestor.App.Controllers
             return View(haverContasAReceberViewModel);
         }
 
-
         // GET: HaverContasAReceber/Create
         public IActionResult Create()
         {
             return View();
         }
-
-        // GET: HaverContasAReceber/Create
-        public  IActionResult NovoRecebimento()
-        {
-            return PartialView("_NovoRecebimento", new RecebimentosViewModel());
-        }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -155,9 +153,47 @@ namespace LaboratorioGestor.App.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        // GET: HaverContasAReceber/Create
+        public async Task<IActionResult> NovoRecebimento(Guid IDCobrancas)
+        {
+            var cobranca = await _cobrancaRepository.ObterPorId(IDCobrancas);
+
+            if (cobranca == null) return NotFound();
+            return PartialView("_NovoRecebimento", _mapper.Map<RecebimentosViewModel>(new Recebimentos { IDCobrancas = IDCobrancas, IDProtetico = ProteticoId }));
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> NovoRecebimento(RecebimentosViewModel recebimentosViewModel)
+        {
+            var IDCobranca = Guid.Parse(recebimentosViewModel.IDCobrancas.ToString());
+            var cobranca = await _cobrancaRepository.ObterPorId(IDCobranca);
+
+            if (cobranca == null) return NotFound();
+
+            if (!ModelState.IsValid) return View(recebimentosViewModel);
+
+            var recebimentos = _mapper.Map<Recebimentos>(recebimentosViewModel);
+            recebimentos.IDProtetico = ProteticoId;
+
+            await _recebimentoService.Adicionar(recebimentos);
+
+            if (!OperacaoValida()) return PartialView("_NovoRecebimento", recebimentosViewModel);
+
+            var url = Url.Action("Index", "Cobrancas");
+
+            return Json(new { success = true, url });
+        }
+
         private bool HaverContasAReceberViewModelExists(Guid id)
         {
             return _recebimentosRepository.Buscar(e => e.Id == id).Result.Any();
         }
+
+        private async Task<RecebimentosViewModel> ObterRecebimentos(Guid id)
+        {
+            return _mapper.Map<RecebimentosViewModel>(await _recebimentosRepository.ObterPorId(id));
+        }
+
     }
 }

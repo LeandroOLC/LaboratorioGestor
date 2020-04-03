@@ -26,6 +26,10 @@ namespace LaboratorioGestor.Data.Mappings
                 .WithOne(e => e.Proteticos)
                 .HasForeignKey(e => e.IDProtetico);
 
+            builder.HasMany(e => e.Recebimentos)
+             .WithOne(e => e.Proteticos)
+             .HasForeignKey(e => e.IDProtetico);
+
             builder.ToTable("Proteticos");
         }
     }

@@ -28,7 +28,7 @@ namespace LaboratorioGestor.Data.Migrations
                     b.Property<DateTime>("DataCadastro")
                         .HasColumnType("DateTime");
 
-                    b.Property<Guid>("IDDentista")
+                    b.Property<Guid?>("IDDentista")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<double?>("ValorAcrecimo")
@@ -46,7 +46,8 @@ namespace LaboratorioGestor.Data.Migrations
                         .IsRequired()
                         .HasColumnType("Float");
 
-                    b.Property<double>("ValorTotal")
+                    b.Property<double?>("ValorTotal")
+                        .IsRequired()
                         .HasColumnType("Float");
 
                     b.HasKey("Id");
@@ -276,26 +277,30 @@ namespace LaboratorioGestor.Data.Migrations
             modelBuilder.Entity("LaboratorioGestor.Business.Models.Recebimentos", b =>
                 {
                     b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("DateTime");
 
-                    b.Property<Guid?>("IDCobrancas")
+                    b.Property<Guid>("IDCobrancas")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("IDUsuarios")
+                    b.Property<Guid>("IDProtetico")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("TipoRecebimento")
                         .IsRequired()
                         .HasColumnType("varchar(1)");
 
-                    b.Property<string>("Valor")
-                        .IsRequired()
-                        .HasColumnType("varchar(80)");
+                    b.Property<double>("Valor")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("IDCobrancas");
+
+                    b.HasIndex("IDProtetico");
 
                     b.ToTable("Recebimentos");
                 });
@@ -398,7 +403,12 @@ namespace LaboratorioGestor.Data.Migrations
                 {
                     b.HasOne("LaboratorioGestor.Business.Models.Cobrancas", "Cobrancas")
                         .WithMany("Recebimentos")
-                        .HasForeignKey("Id")
+                        .HasForeignKey("IDCobrancas")
+                        .IsRequired();
+
+                    b.HasOne("LaboratorioGestor.Business.Models.Proteticos", "Proteticos")
+                        .WithMany("Recebimentos")
+                        .HasForeignKey("IDProtetico")
                         .IsRequired();
                 });
 

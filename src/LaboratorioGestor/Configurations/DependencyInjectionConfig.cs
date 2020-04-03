@@ -38,6 +38,7 @@ namespace LaboratorioGestor.App.Configurations
             services.AddScoped<IProteticoService, ProteticoService>();
             services.AddScoped<IServicoService, ServicoService>();
             services.AddScoped<ICobrancaService, CobrancaService>();
+            services.AddScoped<IRecebimentoService, RecebimentosService>();
 
             return services;
         }

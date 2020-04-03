@@ -4,56 +4,33 @@
     ViewData["Title"] = "Create";
 }
 
-<div style="padding-top: 20px">@*  *@
-
-    <div class="modal-header">
-        <h4 class="modal-title">@ViewData["Title"]</h4>
-        <button type="button" class="close" data-dismiss="modal">
-            <span aria-hidden="true">×</span><span class="sr-only">Fechar</span>
-        </button>
-    </div>
-
-    <form asp-action="Create" class="modal-body">
-        <div class="modal-body">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="DataCadastro" class="control-label"></label>
-                <input asp-for="DataCadastro" class="form-control" />
-                <span asp-validation-for="DataCadastro" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TipoRecebiemnto" class="control-label"></label>
-                <input asp-for="TipoRecebiemnto" class="form-control" />
-                <span asp-validation-for="TipoRecebiemnto" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Valor" class="control-label"></label>
-                <input asp-for="Valor" class="form-control" />
-                <span asp-validation-for="Valor" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IDCobrancas" class="control-label"></label>
-                <input asp-for="IDCobrancas" class="form-control" />
-                <span asp-validation-for="IDCobrancas" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IDUsuarios" class="control-label"></label>
-                <input asp-for="IDUsuarios" class="form-control" />
-                <span asp-validation-for="IDUsuarios" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </div>
-    </form>
-
+<div class="modal-header">
+    <h4 class="modal-title">@ViewData["Title"]</h4>
+    <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">×</span><span class="sr-only">Fechar</span>
+    </button>
 </div>
 
-<div id="myModal" class="modal fade in">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div id="myModalContent"></div>
+<form asp-action="NovoRecebimento">
+    <div class="modal-body">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="IDCobrancas" />
+        <input type="hidden" asp-for="IDProtetico" />
+        <div class="form-group">
+            <label asp-for="Valor" class="control-label"></label>
+            <input asp-for="Valor" class="form-control" />
+            <span asp-validation-for="Valor" class="text-danger"></span>
         </div>
     </div>
-</div>
+
+    <div class="modal-footer">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Adicionar" class="btn btn-success"  />
+            <input type="button" class="btn btn-info" value="Fechar" data-dismiss="modal" />
+        </div>
+    </div>
+</form>
+
+
+
 

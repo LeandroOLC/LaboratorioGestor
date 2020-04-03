@@ -9,8 +9,9 @@
 <p>
     <a asp-action="Create" class="btn btn-info">Nova Cobrança</a>
 </p>
-<table class="table">
-    <thead>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.DataCadastro)
@@ -47,7 +48,6 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.ValorAcrecimo)
                 </td>
-
                 <td>
                     @Html.DisplayFor(modelItem => item.ValorRecebimento)
                 </td>
@@ -58,14 +58,40 @@
                     @Html.DisplayFor(modelItem => item.ValorRestante)
                 </td>
 
-                <td>
-                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
-                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Remover</a>
+                <td class="text-right">
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">
+                        <span title="Detalhes" class="fa fa-search"></span>
+                    </a>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">
+                        <span title="Editar" class="fa fa-edit"></span>
+                    </a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">
+                        <span title="Excluir" class="fa fa-trash-alt"></span>
+                    </a>
+                    <a asp-controller="Recebimentos" asp-action="NovoRecebimento"  asp-route-IDCobrancas="@item.Id" class="btn btn-info" data-modal="">
+                        <span title="Editar" class="fa fa-money-check-alt"></span>
+                    </a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<div id="myModal" class="modal fade in">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id="myModalContent"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            AjaxModal();
+        });
+    </script>
+}
 
 

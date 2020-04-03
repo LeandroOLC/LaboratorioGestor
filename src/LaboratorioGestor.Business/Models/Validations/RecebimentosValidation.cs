@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LaboratorioGestor.Business.Models.Validations7
+namespace LaboratorioGestor.Business.Models.Validations
 { 
     public class RecebimentosValidation : AbstractValidator<Recebimentos>
     {

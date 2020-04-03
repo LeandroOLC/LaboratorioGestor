@@ -35,5 +35,6 @@ namespace LaboratorioGestor.App.ViewModels
         public virtual ContatoViewModel Contatos { get; set; }
         public virtual EnderecoViewModel Enderecos { get; set; }
         public virtual ICollection<ServicoViewModel> Servicos { get; set; }
+        public virtual ICollection<RecebimentosViewModel> Recebimentos { get; set; }
     }
 }

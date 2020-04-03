@@ -9,8 +9,9 @@ namespace LaboratorioGestor.Business.Models
         public DateTime DataCadastro { get; set; }
         public int TipoRecebimento { get; set; }
         public double Valor { get; set; }
-        public Guid? IDCobrancas { get; set; }
-        public Guid IDUsuarios { get; set; }
+        public Guid IDCobrancas { get; set; }
+        public Guid IDProtetico { get; set; }
         public virtual Cobrancas Cobrancas { get; set; }
+        public virtual Proteticos Proteticos { get; set; }
     }
 }

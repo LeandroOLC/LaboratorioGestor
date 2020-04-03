@@ -8,9 +8,9 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<p>
-    <a asp-action="NovoRecebimento" class="btn btn-info" >Novo Recebimento</a>
-</p>
+<div>
+    <a asp-action="NovoRecebimento" asp-route-id="" class="btn btn-info" data-modal="">Novo Recebimento</a>
+</div>
 
 <form asp-action="Index" method="get">
     <input type="hidden" id="IDPesquisa" name="IDPesquisa" value="@pesquisaID" class="form-control">
@@ -42,29 +42,34 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Valor)
                 </td>
-                @*<td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>*@
+                <td>
+                    <a asp-action="NovoRecebimento" asp-route-id="" data-modal="">Edit</a> 
+                </td>
             </tr>
-        }
+         }
+
     </tbody>
 </table>
-
 
 @if (Model != null)
 {
     @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
 }
 
+<div id="myModal" class="modal fade in">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id="myModalContent"></div>
+        </div>
+    </div>
+</div>
 
 @section Scripts {
 
     <script>
         $(document).ready(function () {
-            ObterDentistaPorDescricao();
             AjaxModal();
+            ObterDentistaPorDescricao();
         });
     </script>
 }

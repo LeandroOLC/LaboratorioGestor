@@ -16,8 +16,11 @@ namespace LaboratorioGestor.Data.Mappings
             builder.Property(c => c.TipoRecebimento)
              .HasColumnType("varchar(1)");
 
+            builder.Property(c => c.DataCadastro)
+              .HasColumnType("DateTime");
+
             builder.Property(c => c.Valor)
-             .HasColumnType("varchar(80)");
+             .HasColumnType("float");
 
             builder.ToTable("Recebimentos");
         }

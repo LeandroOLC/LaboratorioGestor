@@ -19,11 +19,11 @@ namespace LaboratorioGestor.App.ViewModels
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public double Valor { get; set; }
 
-         
         public Guid? IDCobrancas { get; set; }
         
-         
-        public Guid IDUsuarios { get; set; }
+        public Guid IDProtetico { get; set; }
+
         public virtual CobrancaViewModel Cobrancas { get; set; }
+        public virtual ProteticoViewModel ProteticoViewModel { get; set; }
     }
 }

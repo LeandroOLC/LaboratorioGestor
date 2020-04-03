@@ -15,5 +15,6 @@ namespace LaboratorioGestor.Business.Models
         public virtual Contatos Contatos { get; set; }
         public virtual Enderecos Enderecos { get; set; }
         public virtual ICollection<Servicos> Servicos { get; set; }
+        public virtual ICollection<Recebimentos> Recebimentos { get; set; }
     }
 }

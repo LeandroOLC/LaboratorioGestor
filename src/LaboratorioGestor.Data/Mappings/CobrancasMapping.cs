@@ -38,7 +38,7 @@ namespace LaboratorioGestor.Data.Mappings
 
             builder.HasMany(e => e.Recebimentos)
                 .WithOne(e => e.Cobrancas)
-                .HasForeignKey(e => e.Id);
+                .HasForeignKey(e => e.IDCobrancas);
 
             builder.HasMany(e => e.Servicos)
                 .WithOne(e => e.Cobrancas)

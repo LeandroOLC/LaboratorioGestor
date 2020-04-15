@@ -18,10 +18,11 @@ namespace LaboratorioGestor.App.Controllers
         private readonly ICobrancaRepository _cobrancaRepository;
         private readonly IRecebimentoService _recebimentoService;
         private readonly IMapper _mapper;
-        private static INotificador notificador;
+   
 
         public RecebimentosController(IRecebimentoRepository recebimentoRepository,
                                       IMapper mapper,
+                                      INotificador notificador, 
                                       IUser user,
                                       IRecebimentoService recebimentoService,
                                       ICobrancaRepository cobrancaRepository)  : base(notificador, user)
@@ -134,7 +135,7 @@ namespace LaboratorioGestor.App.Controllers
                 return NotFound();
             }
 
-            var haverContasAReceberViewModel = _mapper.Map<IEnumerable<RecebimentosViewModel>>(await _recebimentosRepository.ObterPorId(id));
+            var haverContasAReceberViewModel = _mapper.Map<RecebimentosViewModel>(await _recebimentosRepository.ObterPorId(id));
 
             if (haverContasAReceberViewModel == null)
             {
@@ -148,9 +149,15 @@ namespace LaboratorioGestor.App.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            await _recebimentosRepository.Remover(id);
-            await _recebimentosRepository.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            var recebimentos = await ObterRecebimentos(id);
+
+            if (recebimentos == null) return NotFound();
+
+            await _recebimentoService.Remover(id);
+
+            if (!OperacaoValida()) return View(recebimentos);
+
+            return RedirectToAction("Index");
         }
 
         // GET: HaverContasAReceber/Create
@@ -166,7 +173,7 @@ namespace LaboratorioGestor.App.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> NovoRecebimento(RecebimentosViewModel recebimentosViewModel)
         {
-            var IDCobranca = Guid.Parse(recebimentosViewModel.IDCobrancas.ToString());
+            var IDCobranca = Guid.Parse(recebimentosViewModel.IDCobranca.ToString());
             var cobranca = await _cobrancaRepository.ObterPorId(IDCobranca);
 
             if (cobranca == null) return NotFound();
@@ -178,11 +185,10 @@ namespace LaboratorioGestor.App.Controllers
 
             await _recebimentoService.Adicionar(recebimentos);
 
-            if (!OperacaoValida()) return PartialView("_NovoRecebimento", recebimentosViewModel);
+            if (!OperacaoValida()) 
+                return PartialView("_NovoRecebimento", recebimentosViewModel);
 
-            var url = Url.Action("Index", "Cobrancas");
-
-            return Json(new { success = true, url });
+            return RedirectToAction(nameof(Index));
         }
 
         private bool HaverContasAReceberViewModelExists(Guid id)

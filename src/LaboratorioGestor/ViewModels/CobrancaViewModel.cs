@@ -42,6 +42,9 @@ namespace LaboratorioGestor.App.ViewModels
 
         [NotMapped]
         public virtual IEnumerable<ServicoViewModel> Servicos { get; set; }
+      
+        [NotMapped]
+        public virtual IEnumerable<RecebimentosViewModel> Recebimentos { get; set; }
 
         public virtual IPagedList<ServicoViewModel> ServicosPaginado { get; set; }
 

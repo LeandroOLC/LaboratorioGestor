@@ -1,43 +1,42 @@
 ﻿@model LaboratorioGestor.App.ViewModels.RecebimentosViewModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes da cobranças";
 }
 
-<h1>Details</h1>
+<h1>@ViewData["Title"]</h1>
 
 <div>
-    <h4>RecebimentosViewModel</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.DataCadastro)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.DataCadastro)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.TipoRecebiemnto)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TipoRecebiemnto)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Valor)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Valor)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IDCobrancas)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IDCobranca)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IDCobrancas)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IDCobranca)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.IDProtetico)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IDProtetico)
         </dd>
     </dl>

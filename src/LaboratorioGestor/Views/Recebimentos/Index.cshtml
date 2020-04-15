@@ -19,38 +19,6 @@
         <button type="submit" class="btn btn-primary col-md-1">Pesquisa</button>
     </div>
 </form>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FirstOrDefault().DataCadastro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FirstOrDefault().Valor)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DataCadastro)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Valor)
-                </td>
-                <td>
-                    <a asp-action="NovoRecebimento" asp-route-id="" data-modal="">Edit</a> 
-                </td>
-            </tr>
-         }
-
-    </tbody>
-</table>
-
 @if (Model != null)
 {
     @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))

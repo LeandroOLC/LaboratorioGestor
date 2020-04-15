@@ -27,6 +27,8 @@ namespace LaboratorioGestor.App.AutoMapper
             CreateMap<IEnumerable<DentistaViewModel>, IEnumerable<Dentistas>>();
             CreateMap<IEnumerable<ProdutoViewModel>, IEnumerable<Produtos>>();
             CreateMap<IEnumerable<ServicoViewModel>, IEnumerable<Servicos>>();
+            CreateMap<IEnumerable<CobrancaViewModel>, IEnumerable<Cobrancas>>();
+            CreateMap<IEnumerable<RecebimentosViewModel>, IEnumerable<Recebimentos>>();
 
 
             CreateMap<StaticPagedList<Produtos>, StaticPagedList<ProdutoViewModel>>()

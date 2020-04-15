@@ -15,6 +15,7 @@ namespace LaboratorioGestor.App.Controllers
     public class CobrancasController : BaseController
     {
         private readonly ICobrancaRepository _cobrancaRepository;
+        private readonly IRecebimentoRepository _recebimentoRepository;
         private readonly IServicoRepository _servicoRepository;
         private readonly ICobrancaService _cobrancaService;
         private readonly IMapper _mapper;
@@ -22,12 +23,14 @@ namespace LaboratorioGestor.App.Controllers
         public CobrancasController(ICobrancaRepository cobrancaRepository,
                                    IServicoRepository servicoRepository,
                                    ICobrancaService cobrancaService,
+                                   IRecebimentoRepository recebimentoRepository,
                                    IMapper mapper,
                                    INotificador notificador, IUser user) : base(notificador, user)
         {
             _cobrancaRepository = cobrancaRepository;
             _servicoRepository = servicoRepository;
             _cobrancaService = cobrancaService;
+            _recebimentoRepository = recebimentoRepository;
             _mapper = mapper;
         }
 
@@ -146,7 +149,8 @@ namespace LaboratorioGestor.App.Controllers
 
         private async Task<CobrancaViewModel> ObterCobrancasRebimentos(Guid id)
         {
-            return _mapper.Map<CobrancaViewModel>(await _cobrancaRepository.ObterCobrancasRebimentos(id));
+            return  _mapper.Map<CobrancaViewModel>(await _cobrancaRepository.ObterCobrancasRebimentos(id));
         }
+
     }
 }

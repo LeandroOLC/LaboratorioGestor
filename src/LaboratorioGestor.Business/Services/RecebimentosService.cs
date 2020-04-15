@@ -43,22 +43,18 @@ namespace LaboratorioGestor.Business.Services
                 return;
             }
 
+            if (recebimentos.Valor > cobranca.ValorRestante)
+            {
+                Notificar("Valor recebido maior do que restante para quitar o cobrança.");
+                return;
+            }
+
             await _recebimentoRepository.Adicionar(recebimentos);
 
-            var cobrancaAtualizada = new Cobrancas
-            {
-                Id = cobranca.Id,
-                IDDentista = cobranca.IDDentista,
-                DataCadastro = cobranca.DataCadastro,
-                ValorAcrecimo = 0,
-                ValorDesconto = 0,
-                ValorRecebimento = 0,
-                ValorRestante = cobranca.ValorRestante - recebimentos.Valor,
-                ValorTotal = cobranca.ValorTotal,
-            };
+            cobranca.ValorRecebimento += recebimentos.Valor;
+            cobranca.ValorRestante -= recebimentos.Valor;
 
-            cobrancaAtualizada.Recebimentos.Add(recebimentos);
-            await _cobrancaRepository.Atualizar(cobrancaAtualizada);
+           await _cobrancaRepository.Atualizar(cobranca);
         }
 
         public Task Atualizar(Recebimentos recebimentos)
@@ -69,23 +65,14 @@ namespace LaboratorioGestor.Business.Services
         public async Task Remover(Guid id)
         {
             var recebimento = await _recebimentoRepository.ObterPorId(id);
-            var cobranca = await _cobrancaRepository.ObterPorId(id);
+            var cobranca = await _cobrancaRepository.ObterPorId(recebimento.IDCobrancas);
 
-            await _recebimentoRepository.Remover(id);
+            await _recebimentoRepository.Remover(recebimento.Id);
 
-            var cobrancaAtualizada = new Cobrancas
-            {
-                Id = cobranca.Id,
-                IDDentista = cobranca.IDDentista,
-                DataCadastro = DateTime.Now,
-                ValorAcrecimo = 0,
-                ValorDesconto = 0,
-                ValorRecebimento = 0,
-                ValorRestante = cobranca.ValorRestante - recebimento.Valor,
-                ValorTotal = cobranca.ValorTotal,
-            };
+            cobranca.ValorRecebimento -= recebimento.Valor;
+            cobranca.ValorRestante += recebimento.Valor;
 
-            await _cobrancaRepository.Atualizar(cobrancaAtualizada);
+            await _cobrancaRepository.Atualizar(cobranca);
         }
 
         public void Dispose()

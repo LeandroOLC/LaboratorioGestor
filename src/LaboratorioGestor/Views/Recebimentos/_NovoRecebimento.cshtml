@@ -1,7 +1,7 @@
 ﻿@model LaboratorioGestor.App.ViewModels.RecebimentosViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Informe o valor recebido";
 }
 
 <div class="modal-header">
@@ -13,8 +13,11 @@
 
 <form asp-action="NovoRecebimento">
     <div class="modal-body">
+
+        <vc:Summary></vc:Summary>
+
         <input type="hidden" asp-for="Id" />
-        <input type="hidden" asp-for="IDCobrancas" />
+        <input type="hidden" asp-for="IDCobranca" />
         <input type="hidden" asp-for="IDProtetico" />
         <div class="form-group">
             <label asp-for="Valor" class="control-label"></label>
@@ -25,11 +28,16 @@
 
     <div class="modal-footer">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Adicionar" class="btn btn-success"  />
+            <input type="submit" value="Adicionar" class="btn btn-success" />
             <input type="button" class="btn btn-info" value="Fechar" data-dismiss="modal" />
         </div>
     </div>
 </form>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
 
 
 

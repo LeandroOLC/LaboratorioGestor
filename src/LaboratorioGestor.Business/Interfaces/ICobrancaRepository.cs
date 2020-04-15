@@ -8,7 +8,7 @@ namespace LaboratorioGestor.Business.Interfaces
 {
     public interface ICobrancaRepository : IRepository<Cobrancas>
     {
-        Task<IEnumerable<Cobrancas>> ObterCobrancasRebimentos(Guid Id);
+        Task<Cobrancas> ObterCobrancasRebimentos(Guid Id);
 
         Task RemoverCobranca(Cobrancas cobrancas);
     }

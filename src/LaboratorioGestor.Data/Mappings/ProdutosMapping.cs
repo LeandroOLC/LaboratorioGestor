@@ -17,7 +17,7 @@ namespace LaboratorioGestor.Data.Mappings
                 .HasColumnType("varchar(200)");
 
             builder.Property(e => e.Valor)
-                .HasColumnType("float");
+                .HasColumnType("decimal(18,2)");
 
             builder.Property(e => e.DataDoCadastro)
                    .HasColumnType("DateTime");

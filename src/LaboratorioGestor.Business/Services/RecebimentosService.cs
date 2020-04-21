@@ -29,7 +29,7 @@ namespace LaboratorioGestor.Business.Services
 
             if (!ExecutarValidacao(new RecebimentosValidation(), recebimentos)) return;
 
-            var cobranca = await _cobrancaRepository.ObterPorId(recebimentos.IDCobrancas);
+            var cobranca = await _cobrancaRepository.ObterPorId(recebimentos.IDCobranca);
 
             if(cobranca.ValorTotal == cobranca.ValorRecebimento)
             {
@@ -65,9 +65,9 @@ namespace LaboratorioGestor.Business.Services
         public async Task Remover(Guid id)
         {
             var recebimento = await _recebimentoRepository.ObterPorId(id);
-            var cobranca = await _cobrancaRepository.ObterPorId(recebimento.IDCobrancas);
-
-            await _recebimentoRepository.Remover(recebimento.Id);
+            var cobranca = await _cobrancaRepository.ObterPorId(recebimento.IDCobranca);
+            
+            await _recebimentoRepository.Remover(id);
 
             cobranca.ValorRecebimento -= recebimento.Valor;
             cobranca.ValorRestante += recebimento.Valor;

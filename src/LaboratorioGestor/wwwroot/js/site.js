@@ -55,6 +55,7 @@ function AjaxModal() {
                         if (result.success) {
                             $('#myModal').modal('hide');
                             $('#EnderecoTarget').load(result.url); // Carrega o resultado HTML para a div demarcada
+                            window.location.reload();
                         } else {
                             $('#myModalContent').html(result);
                             bindForm(dialog);

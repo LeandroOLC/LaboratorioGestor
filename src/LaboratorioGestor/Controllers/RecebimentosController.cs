@@ -161,34 +161,34 @@ namespace LaboratorioGestor.App.Controllers
         }
 
         // GET: HaverContasAReceber/Create
-        public async Task<IActionResult> NovoRecebimento(Guid IDCobrancas)
+        public async Task<IActionResult> NovoRecebimento(Guid IDCobranca)
         {
-            var cobranca = await _cobrancaRepository.ObterPorId(IDCobrancas);
+            var cobranca = await _cobrancaRepository.ObterPorId(IDCobranca);
 
             if (cobranca == null) return NotFound();
-            return PartialView("_NovoRecebimento", _mapper.Map<RecebimentosViewModel>(new Recebimentos { IDCobrancas = IDCobrancas, IDProtetico = ProteticoId }));
+            return PartialView("_NovoRecebimento", _mapper.Map<RecebimentosViewModel>(new Recebimentos { IDCobranca = IDCobranca, IDProtetico = ProteticoId }));
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> NovoRecebimento(RecebimentosViewModel recebimentosViewModel)
         {
-            var IDCobranca = Guid.Parse(recebimentosViewModel.IDCobranca.ToString());
-            var cobranca = await _cobrancaRepository.ObterPorId(IDCobranca);
+            var cobranca = await _cobrancaRepository.ObterPorId(recebimentosViewModel.IDCobranca);
 
             if (cobranca == null) return NotFound();
 
             if (!ModelState.IsValid) return View(recebimentosViewModel);
 
             var recebimentos = _mapper.Map<Recebimentos>(recebimentosViewModel);
-            recebimentos.IDProtetico = ProteticoId;
-
+         
             await _recebimentoService.Adicionar(recebimentos);
 
             if (!OperacaoValida()) 
                 return PartialView("_NovoRecebimento", recebimentosViewModel);
 
-            return RedirectToAction(nameof(Index));
+            var url = Url.Action("Index", "Cobrancas");
+          
+            return Json(new { success = true, url });
         }
 
         private bool HaverContasAReceberViewModelExists(Guid id)

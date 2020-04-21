@@ -24,7 +24,7 @@ namespace LaboratorioGestor.Data.Repository
 
         public async Task<IEnumerable<Recebimentos>> ObterRecebimentosCobrancas(Guid CobrancaId)
         {
-            return await Buscar(p => p.IDCobrancas == CobrancaId);
+            return await Buscar(p => p.IDCobranca == CobrancaId);
         }
 
         public async Task<IPagedList<Recebimentos>> ObterRecebimentosPesquisaPaginado(int? pagina, Guid? pesquisa)

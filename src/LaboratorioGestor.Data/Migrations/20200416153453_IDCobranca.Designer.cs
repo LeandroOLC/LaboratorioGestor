@@ -4,14 +4,16 @@ using LaboratorioGestor.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LaboratorioGestor.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
-    partial class MeuDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200416153453_IDCobranca")]
+    partial class IDCobranca
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,20 +33,24 @@ namespace LaboratorioGestor.Data.Migrations
                     b.Property<Guid?>("IDDentista")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<decimal>("ValorAcrecimo")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double?>("ValorAcrecimo")
+                        .IsRequired()
+                        .HasColumnType("Float");
 
-                    b.Property<decimal>("ValorDesconto")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double?>("ValorDesconto")
+                        .IsRequired()
+                        .HasColumnType("Float");
 
-                    b.Property<decimal?>("ValorRecebimento")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double?>("ValorRecebimento")
+                        .HasColumnType("Float");
 
-                    b.Property<decimal>("ValorRestante")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double?>("ValorRestante")
+                        .IsRequired()
+                        .HasColumnType("Float");
 
-                    b.Property<decimal>("ValorTotal")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double?>("ValorTotal")
+                        .IsRequired()
+                        .HasColumnType("Float");
 
                     b.HasKey("Id");
 
@@ -229,8 +235,8 @@ namespace LaboratorioGestor.Data.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("varchar(200)");
 
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("Valor")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -289,8 +295,8 @@ namespace LaboratorioGestor.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(1)");
 
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("Valor")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 

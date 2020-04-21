@@ -19,26 +19,26 @@ namespace LaboratorioGestor.Data.Mappings
 
             builder.Property(c => c.ValorAcrecimo)
                 .IsRequired()
-                .HasColumnType("Float");
+                .HasColumnType("decimal(18,2)");
 
             builder.Property(c => c.ValorDesconto)
                 .IsRequired()
-                .HasColumnType("Float");
+                .HasColumnType("decimal(18,2)");
 
             builder.Property(c => c.ValorRecebimento)
-                .HasColumnType("Float");
+                .HasColumnType("decimal(18,2)");
 
             builder.Property(c => c.ValorRestante)
                 .IsRequired()
-                .HasColumnType("Float");
+                .HasColumnType("decimal(18,2)");
 
             builder.Property(c => c.ValorTotal)
                 .IsRequired()
-                .HasColumnType("Float");
+                .HasColumnType("decimal(18,2)");
 
             builder.HasMany(e => e.Recebimentos)
                 .WithOne(e => e.Cobrancas)
-                .HasForeignKey(e => e.IDCobrancas);
+                .HasForeignKey(e => e.IDCobranca);
 
             builder.HasMany(e => e.Servicos)
                 .WithOne(e => e.Cobrancas)

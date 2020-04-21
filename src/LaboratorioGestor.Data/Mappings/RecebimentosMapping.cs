@@ -20,7 +20,7 @@ namespace LaboratorioGestor.Data.Mappings
               .HasColumnType("DateTime");
 
             builder.Property(c => c.Valor)
-             .HasColumnType("float");
+             .HasColumnType("decimal(18,2)");
 
             builder.ToTable("Recebimentos");
         }

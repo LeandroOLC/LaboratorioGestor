@@ -9,7 +9,6 @@ C:\Codigo Teste\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netco
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.deps.json
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\bin\Debug\netcoreapp3.1\LaboratorioGestor.Business.pdb
-C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.csprojAssemblyReference.cache
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.AssemblyInfoInputs.cache
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.AssemblyInfo.cs
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll

@@ -14,6 +14,7 @@ namespace LaboratorioGestor.App.ViewModels.Identity.AccountViewModels
         public string UserName { get; set; }
 
         [Required]
+        [DisplayName("Senha")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 

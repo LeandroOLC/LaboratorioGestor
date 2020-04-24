@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using LaboratorioGestor.App.Extensions;
 using LaboratorioGestor.App.ViewModels;
 using LaboratorioGestor.App.ViewModels.Identity;
 using LaboratorioGestor.App.ViewModels.Identity.AccountViewModels;
@@ -15,7 +14,6 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
-using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Encodings.Web;

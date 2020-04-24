@@ -3,6 +3,7 @@ using LaboratorioGestor.App.ViewModels;
 using LaboratorioGestor.Business.Interfaces;
 using LaboratorioGestor.Business.Models;
 using LaboratorioGestor.Business.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace LaboratorioGestor.App.Controllers
 {
+    [Authorize]
     public class LaboratoriosController : BaseController
     {
         private readonly ILaboratorioRepository _laboratorioRepository;

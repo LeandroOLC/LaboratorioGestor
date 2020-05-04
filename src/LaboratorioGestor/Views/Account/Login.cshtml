@@ -7,67 +7,73 @@
 }
 
 <br />
-<div class="card border-secondary border-secondary">
-    <div class="card-header text-center text-secondary">Faça login na sua conta</div>
-    <div class="card-body text-info">
-        <section>
-            <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal">
-                <vc:Summary></vc:Summary>
+<content class="centralizar-componentes">
 
-                <div class="form-group text-black-50">
-                    <label asp-for="UserName" control-label"></label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text fa fa-user" id="IconeUsuario" title="Usuário"></span>
+    <div class="card border-secondary border-secondary">
+        <div class="card-header text-center text-secondary">Faça login na sua conta</div>
+        <div class="card-body text-info">
+            <section>
+                <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal">
+                    <vc:Summary></vc:Summary>
+
+                    <div class="form-group text-black-50">
+                        <label asp-for="UserName" control-label"></label>
+
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text fa fa-user" id="IconeUsuario" title="Usuário"></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="IconeUsuario" asp-for="UserName" />
                         </div>
-                        <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="IconeUsuario" asp-for="UserName" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
                     </div>
-                    <span asp-validation-for="UserName" class="text-danger"></span>
-                </div>
 
 
-                <div class="form-group text-black-50">
-                    <label asp-for="Password" control-label"></label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text fa fa-lock" id="IconeSenha" title="Senha"></span>
+                    <div class="form-group text-black-50">
+                        <label asp-for="Password" control-label"></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text fa fa-lock" id="IconeSenha" title="Senha"></span>
+                            </div>
+                            <input class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="IconeSenha" asp-for="Password" />
                         </div>
-                        <input class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="IconeSenha" asp-for="Password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
-                    <span asp-validation-for="Password" class="text-danger"></span>
-                </div>
 
-                <div class="form-group text-center">
-                    <div class="col-md-offset-2">
-                        <div class="checkbox">
-                            <label asp-for="RememberMe">
-                                <input asp-for="RememberMe" />
-                                @Html.DisplayNameFor(m => m.RememberMe)
-                            </label>
+                    <div class="form-group text-center">
+                        <div class="col-md-offset-2">
+                            <div class="checkbox">
+                                <label asp-for="RememberMe">
+                                    <input asp-for="RememberMe" />
+                                    @Html.DisplayNameFor(m => m.RememberMe)
+                                </label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group text-center">
-                    <div class="col-md-offset-2">
-                        <button type="submit" class="btn btn-lg btn-primary">Confirmar</button>
+                    <div class="form-group text-center">
+                        <div class="col-md-offset-2">
+                            <button type="submit" class="btn btn-lg btn-primary">Confirmar</button>
+                        </div>
                     </div>
-                </div>
-                <p class="text-center">
-                    <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">
-                        Registrar-se como um novo usuário?
-                    </a>
-                </p>
-                <p class="text-center">
-                    <a asp-action="ForgotPassword">
-                        Esqueceu sua senha?
-                    </a>
-                </p>
-            </form>
-        </section>
+                    <p class="text-center">
+                        <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                            Registrar-se como um novo usuário?
+                        </a>
+                    </p>
+                    <p class="text-center">
+                        <a asp-action="ForgotPassword">
+                            Esqueceu sua senha?
+                        </a>
+                    </p>
+                </form>
+            </section>
+        </div>
     </div>
-</div>
+</content>
 
 @section Scripts {
-    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

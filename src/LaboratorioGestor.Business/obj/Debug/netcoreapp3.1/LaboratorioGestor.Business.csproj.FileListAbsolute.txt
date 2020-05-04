@@ -13,3 +13,4 @@ C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.AssemblyInfo.cs
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.dll
 C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.pdb
+C:\GitHub\LaboratorioGestor\src\LaboratorioGestor.Business\obj\Debug\netcoreapp3.1\LaboratorioGestor.Business.csprojAssemblyReference.cache

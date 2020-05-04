@@ -6,38 +6,41 @@
     var pesquisaID = Context.Request.Query["IDPesquisa"];
 }
 
-<h1>@ViewData["Title"]</h1>
-
 <div>
-    <a asp-action="NovoRecebimento" asp-route-id="" class="btn btn-info" data-modal="">Novo Recebimento</a>
-</div>
+    <h1>@ViewData["Title"]</h1>
 
-<form asp-action="Index" method="get">
-    <input type="hidden" id="IDPesquisa" name="IDPesquisa" value="@pesquisaID" class="form-control">
-    <div class="form-row">
-        <input type="text" id="NomeDentista" name="NomeDentista" class="form-control col-md-10" value="@pesquisa" placeholder="Digite nome do dentista...">
-        <button type="submit" class="btn btn-primary col-md-1">Pesquisa</button>
+    <div>
+        <a asp-action="NovoRecebimento" asp-route-id="" class="btn btn-info" data-modal="">Novo Recebimento</a>
     </div>
-</form>
-@if (Model != null)
-{
-    @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
-}
 
-<div id="myModal" class="modal fade in">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div id="myModalContent"></div>
+    <form asp-action="Index" method="get">
+        <input type="hidden" id="IDPesquisa" name="IDPesquisa" value="@pesquisaID" class="form-control">
+        <div class="form-row">
+            <input type="text" id="NomeDentista" name="NomeDentista" class="form-control col-md-10" value="@pesquisa" placeholder="Digite nome do dentista...">
+            <button type="submit" class="btn btn-primary col-md-1">Pesquisa</button>
+        </div>
+    </form>
+
+    @if (Model != null)
+    {
+        @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
+    }
+
+    <div id="myModal" class="modal fade in">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div id="myModalContent"></div>
+            </div>
         </div>
     </div>
 </div>
 
-@section Scripts {
+    @section Scripts {
 
-    <script>
-        $(document).ready(function () {
-            AjaxModal();
-            ObterDentistaPorDescricao();
-        });
-    </script>
-}
+        <script>
+            $(document).ready(function () {
+                AjaxModal();
+                ObterDentistaPorDescricao();
+            });
+        </script>
+    }

@@ -13,12 +13,48 @@
                 });
         },
 
-        focus: function (event, ui) {
+        focus: function (event, ui) {   
             $("#IDPesquisa").val(ui.item.value);
         },
 
         select: function (event, ui) {
             $("#NomeDentista").val(ui.item.value);
+            $("#IDPesquisa").val(ui.item.id);
+            return false;
+        }
+    });
+}
+
+function PesquisaModels() {
+    var NomeCotroller = window.location.href.split('/')[3];
+
+    $('input, textarea').on('keypress', function (e) {
+        if (e.keyCode == 13) {
+            $('#btnpesquisar').click();
+        }
+    });
+
+
+    $("#btnpesquisar").click({
+        source: function (request, response) {
+            $.ajax(
+                {
+                    url: NomeCotroller.concat('/index'),
+                    dataType: "json",
+                    data: { 'NomePesquisar': request.term },
+                    success: response,
+                    error: function (xhr) {
+                        alert("Erro! Informção não encontrado.");
+                    }
+                });
+        },
+
+        focus: function (event, ui) {
+            $("#IDPesquisa").val(ui.item.value);
+        },
+
+        select: function (event, ui) {
+            $("#NomePesquisar").val(ui.item.value);
             $("#IDPesquisa").val(ui.item.id);
             return false;
         }

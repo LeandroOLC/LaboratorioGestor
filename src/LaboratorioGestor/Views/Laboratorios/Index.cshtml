@@ -3,13 +3,34 @@
 
 @{
     ViewData["Title"] = "Laboratórios Cadastrados";
+
+    var pesquisa = Context.Request.Query["NomePesquisa"];
+    var pesquisaID = Context.Request.Query["IDPesquisa"];
+
 }
 
 <h1> @ViewData["Title"]</h1>
+<hr />
 
-<p>
-    <a asp-action="Create" class="btn btn-info">Novo Laboratório</a>
-</p>
+<div class="form-row">
+    <p>
+        <a asp-action="Create" class="btn btn-primary" style="width:90px; margin-right:20px; margin-bottom:10px">Cadastrar</a>
+    </p>
+    <form asp-action="Index" style="width:780px; padding:0px" method="get">
+        <input type="hidden" id="IDPesquisa" name="IDPesquisa" value="@pesquisaID" class="form-control">
+        <div class="input-group">
+
+            <input type="text" id="NomePesquisa" name="NomePesquisa" value="@pesquisa" style="height:40px;width:90px" class="form-control" placeholder="Digite CNPJ do Laboratório..." aria-label="Digite CNPJ do Laboratório..." aria-describedby="basic-addon2">
+
+            <div class="input-group-append" id="basic-addon2">
+                <button type="submit" title="pesquisar" id="btnpesquisar" name="btnpesquisar" class="input-group-text fa fa-search" asp-></button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<br />
+
 <table class="table">
     <thead>
         <tr>
@@ -60,3 +81,11 @@
         }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            PesquisaModels();
+        });
+    </script>
+}

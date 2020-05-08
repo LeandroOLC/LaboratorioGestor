@@ -49,13 +49,12 @@ function PesquisaModels() {
                 });
         },
 
-        focus: function (event, ui) {
-            $("#IDPesquisa").val(ui.item.value);
-        },
+        //focus: function (event, ui) {
+        //    $("#IDPesquisa").val(ui.item.value);
+        //},
 
         select: function (event, ui) {
             $("#NomePesquisar").val(ui.item.value);
-            $("#IDPesquisa").val(ui.item.id);
             return false;
         }
     });

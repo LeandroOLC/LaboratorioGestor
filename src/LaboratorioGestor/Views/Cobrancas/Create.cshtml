@@ -89,14 +89,6 @@
     @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina }))
 }
 
-@section Scripts {
-
-    <script>
-        $(document).ready(function () {
-            ObterDentistaPorDescricao();
-        });
-    </script>
-}
 @*<form asp-action="Create">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group">

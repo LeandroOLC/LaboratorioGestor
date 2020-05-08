@@ -30,7 +30,7 @@ namespace LaboratorioGestor.App.Controllers
             _laboratorioServico = laboratorioServico;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string nomePesquisar)
         {
             return View(_mapper.Map<IEnumerable<LaboratorioViewModel>>(await _laboratorioRepository.ObterTodos()));
         }

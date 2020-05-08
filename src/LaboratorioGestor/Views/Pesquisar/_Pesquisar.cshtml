@@ -1,0 +1,20 @@
+﻿@model String;
+@{
+    var pesquisa = Context.Request.Query["nomePesquisa"];
+}
+<div class="form-row col-md-12" style="margin-left:0; margin-right:0; padding:0;">
+   
+    <p class="col-md-1" style="margin-right:0px; padding:0px; margin-bottom:5px">
+        <a asp-action="Create" class="btn btn-primary">Cadastrar</a>
+    </p>
+
+    <form asp-action="Index" class="col-md-11">
+        <div class="input-group">
+            <input type="text" id="NomePesquisa" name="nomePesquisa" value="@pesquisa" style="height:40px" class="form-control" placeholder="@Model" aria-describedby="btnPesquisar">
+            <div class="input-group-append" id="btnPesquisar">
+                <button type="submit" title="pesquisar" class="input-group-text fa fa-search" asp-></button>
+            </div>
+        </div>
+    </form>
+</div>
+

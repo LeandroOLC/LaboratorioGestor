@@ -7,70 +7,40 @@
 }
 
 <br />
-<content class="centralizar-componentes">
 
+<form class="form-signin" asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]">
 
-    <div class="card border-secondary border-secondary">
-        <div class="card-header text-center text-secondary">Faça login na sua conta</div>
-        <div class="card-body text-info">
-            <section>
-                <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal">
-                    <vc:Summary></vc:Summary>
+    <vc:Summary></vc:Summary>
 
-                    <div class="form-group text-black-50">
-                        <label asp-for="UserName" control-label"></label>
+    <h1 class="h3 mb-3 font-weight-lighter">Faça login na sua conta</h1>
 
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text fa fa-user" id="IconeUsuario" title="Usuário"></span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="IconeUsuario" asp-for="UserName" />
-                        </div>
-                        <span asp-validation-for="UserName" class="text-danger"></span>
-                    </div>
+    <label asp-for="UserName" class="control-label sr-only">Nome do usuário</label>
+    <input asp-for="UserName" type="text" class="form-control" placeholder="Nome do Usuário" required autofocus>
+    <span asp-validation-for="UserName" class="text-danger"></span>
 
+    <label asp-for="Password" class="control-label sr-only">Senha</label>
+    <input asp-for="Password" type="password" class="form-control" placeholder="Password" required>
+    <span asp-validation-for="Password" class="text-danger"></span>
 
-                    <div class="form-group text-black-50">
-                        <label asp-for="Password" control-label"></label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text fa fa-lock" id="IconeSenha" title="Senha"></span>
-                            </div>
-                            <input class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="IconeSenha" asp-for="Password" />
-                        </div>
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group text-center">
-                        <div class="col-md-offset-2">
-                            <div class="checkbox">
-                                <label asp-for="RememberMe">
-                                    <input asp-for="RememberMe" />
-                                    @Html.DisplayNameFor(m => m.RememberMe)
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group text-center">
-                        <div class="col-md-offset-2">
-                            <button type="submit" class="btn btn-lg btn-primary">Confirmar</button>
-                        </div>
-                    </div>
-                    <p class="text-center">
-                        <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">
-                            Registrar-se como um novo usuário?
-                        </a>
-                    </p>
-                    <p class="text-center">
-                        <a asp-action="ForgotPassword">
-                            Esqueceu sua senha?
-                        </a>
-                    </p>
-                </form>
-            </section>
-        </div>
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
     </div>
-</content>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Confirmar</button>
+
+    <p class="text-center">
+        <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">
+            Registrar-se como um novo usuário?
+        </a>
+    </p>
+    <p class="text-center">
+        <a asp-action="ForgotPassword">
+            Esqueceu sua senha?
+        </a>
+    </p>
+</form>
 
 @section Scripts {
     @{

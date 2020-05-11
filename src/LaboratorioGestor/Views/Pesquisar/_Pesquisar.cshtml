@@ -2,19 +2,23 @@
 @{
     var pesquisa = Context.Request.Query["nomePesquisa"];
 }
-<div class="form-row col-md-12" style="margin-left:0; margin-right:0; padding:0;">
-   
-    <p class="col-md-1" style="margin-right:0px; padding:0px; margin-bottom:5px">
-        <a asp-action="Create" class="btn btn-primary">Cadastrar</a>
+@*style="margin-left:0; margin-right:0; padding:0"*@
+<div class="form-row col-md-12" style="margin:0; padding:0; text-align: left;">
+
+    <p class="col-xs-1" @*style="text-align: left; margin:0; margin:0; padding:0; margin-bottom: 5px; height:25px"*@>
+        <a asp-action="Create" class="btn btn-success flat-btn flat-btn-primary" style="text-align: left">Criar Novo</a>
     </p>
 
-    <form asp-action="Index" class="col-md-11">
-        <div class="input-group">
-            <input type="text" id="NomePesquisa" name="nomePesquisa" value="@pesquisa" style="height:40px" class="form-control" placeholder="@Model" aria-describedby="btnPesquisar">
-            <div class="input-group-append" id="btnPesquisar">
-                <button type="submit" title="pesquisar" class="input-group-text fa fa-search" asp-></button>
+    @*style="margin:0; margin:0; padding:0; margin-bottom: 5px; height:25px"*@
+    <form asp-action="Index">
+        <div class="col-xs-10">
+            <div class="ca-input-group">
+                <input type="text" id="NomePesquisa" name="nomePesquisa" value="@pesquisa" class="ca-form-control" placeholder="@Model" aria-describedby="btnPesquisar">
+                <div class="ca-input-group-btn" id="btnPesquisar">
+                    <button type="submit" title="pesquisar" class="input-group-text fa fa-search"></button>
+                </div>
             </div>
         </div>
     </form>
-</div>
 
+</div>

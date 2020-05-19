@@ -2,23 +2,42 @@
 @{
     var pesquisa = Context.Request.Query["nomePesquisa"];
 }
-@*style="margin-left:0; margin-right:0; padding:0"*@
-<div class="form-row col-md-12" style="margin:0; padding:0; text-align: left;">
 
-    <p class="col-xs-1" @*style="text-align: left; margin:0; margin:0; padding:0; margin-bottom: 5px; height:25px"*@>
-        <a asp-action="Create" class="btn btn-success flat-btn flat-btn-primary" style="text-align: left">Criar Novo</a>
+@*style="margin-left:0; margin-right:0; padding:0"*@
+
+<style>
+
+    .input-group.md-form.form-sm.form-2 input {
+        border: 1px solid #bdbdbd;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+        height: 28px;
+    }
+
+    .input-group.md-form.form-sm.form-2 button {
+        height: 25px;
+    }
+
+    .input-group.md-form.form-sm.form-2 i {
+        height: 25px;
+    }
+
+</style>
+
+<div class="form-row-semMargem col-md-12">
+
+    @*style="text-align: left; color: #fff; background-color: #4ab858;"*@
+    <p class="col-md-2" style="padding:0;text-align: left">
+        <a asp-action="Create" class="btn flat-btn flat-btn-primary">Criar Novo</a>
     </p>
 
-    @*style="margin:0; margin:0; padding:0; margin-bottom: 5px; height:25px"*@
-    <form asp-action="Index">
-        <div class="col-xs-10">
-            <div class="ca-input-group">
-                <input type="text" id="NomePesquisa" name="nomePesquisa" value="@pesquisa" class="ca-form-control" placeholder="@Model" aria-describedby="btnPesquisar">
-                <div class="ca-input-group-btn" id="btnPesquisar">
-                    <button type="submit" title="pesquisar" class="input-group-text fa fa-search"></button>
-                </div>
-            </div>
+    <div class="input-group col-md-10 md-form form-sm form-2 pl-0" style="padding:0">
+        <input class="form-control-semMargem my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+            <button class="btn btn-primary amber lighten-3" id="basic-text1">
+                <i class="fas fa-search text-grey" aria-hidden="true"></i>
+            </button>
         </div>
-    </form>
+    </div>
 
 </div>

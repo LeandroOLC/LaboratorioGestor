@@ -8322,11 +8322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\LaboratorioGestor\\src\\LaboratorioGestor.Data\\LaboratorioGestor.Data.csproj",
+      "projectUniqueName": "C:\\GitHub\\LaboratorioGestor--\\src\\LaboratorioGestor.Data\\LaboratorioGestor.Data.csproj",
       "projectName": "LaboratorioGestor.Data",
-      "projectPath": "C:\\GitHub\\LaboratorioGestor\\src\\LaboratorioGestor.Data\\LaboratorioGestor.Data.csproj",
+      "projectPath": "C:\\GitHub\\LaboratorioGestor--\\src\\LaboratorioGestor.Data\\LaboratorioGestor.Data.csproj",
       "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\LaboratorioGestor\\src\\LaboratorioGestor.Data\\obj\\",
+      "outputPath": "C:\\GitHub\\LaboratorioGestor--\\src\\LaboratorioGestor.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -8347,8 +8347,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\GitHub\\LaboratorioGestor\\src\\LaboratorioGestor.Business\\LaboratorioGestor.Business.csproj": {
-              "projectPath": "C:\\GitHub\\LaboratorioGestor\\src\\LaboratorioGestor.Business\\LaboratorioGestor.Business.csproj"
+            "C:\\GitHub\\LaboratorioGestor--\\src\\LaboratorioGestor.Business\\LaboratorioGestor.Business.csproj": {
+              "projectPath": "C:\\GitHub\\LaboratorioGestor--\\src\\LaboratorioGestor.Business\\LaboratorioGestor.Business.csproj"
             }
           }
         }
